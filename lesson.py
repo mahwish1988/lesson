@@ -18,7 +18,7 @@ def clean_text(text):
     return re.sub(r'\s+', ' ', text.strip().lower())
 
 # Extract text from PDF
-def extract_text_from_pdf(pdf_path):
+def extract_text_from_pdf(kindergarten_lesson_plan.pdf):
     text = ""
     try:
         reader = PdfReader(pdf_path)
