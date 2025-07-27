@@ -94,7 +94,7 @@ st.title("🎒 Preprimary Syllabus Assistant")
 st.markdown("Hi there! 👋 I'm here to help you explore the lesson plan. Ask me anything about phonics, monthly topics, or classroom activities listed in the plan below ⬇️")
 
 # Local PDF Path
-PDF_FILE_PATH = r"C:\Users\Computer House\Downloads\yearly year lesson plan by mahwish.pdf"
+PDF_FILE_PATH = r"PDF_FILE_PATH = "kindergarten_lesson_plan.pdf.pdf"
 
 # Load PDF once
 if 'pdf_content' not in st.session_state:
