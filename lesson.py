@@ -21,7 +21,7 @@ def clean_text(text):
 def extract_text_from_pdf(kindergarten_lesson_plan.pdf):
     text = ""
     try:
-        reader = PdfReader(pdf_path)
+        reader = PdfReader(kindergarten_lesson_plan.pdf)
         for page in reader.pages:
             page_text = page.extract_text()
             if page_text:
